@@ -1,1 +1,56 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+/*Aquí tengo las clases para dar directrices mas generales al documento*/
+body {
+  background-color: rgb(233, 231, 210);
+  text-align: center;
+}
+
+h1 {
+  margin: 1%;
+  margin-left: 30%;
+  margin-right: 30%;
+  color: rgb(255, 255, 255);
+  font-size: 70px;
+}
+
+div > #excuse {
+  background-color: rgb(241, 202, 115);
+  border: 4px solid rgba(172, 172, 172, 0.8);
+  border-radius: 10px;
+  margin-top: 30px;
+  padding: 5%;
+  height: 180px;
+}
+
+p {
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  text-align: center;
+}
+
+/*Aquí tengo los divs, algunos se llaman igual a su clase para no confundirme en cual es cual*/
+#body {
+  margin: 1%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+#button {
+  margin-top: 15%;
+  margin-bottom: 15%;
+  font-size: 50px;
+}
+
+#top {
+  background-color: rgb(7, 8, 7);
+  border: 4px solid rgba(172, 172, 172, 0.8);
+  border-radius: 10px;
+  margin: 12px;
+}
+
+#madeBy {
+  margin-top: 5%;
+  margin-left: 80%;
+  color: rgb(161, 159, 144);
+}
